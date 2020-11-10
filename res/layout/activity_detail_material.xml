@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.troy.materialsapp.Detail_material" >
+    
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        
+        <ViewFlipper 
+            android:id="@+id/viewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            
+            <ImageView 
+                android:id="@+id/img1"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:src="@drawable/semen2"
+	            android:scaleType="centerCrop"
+	            android:contentDescription="foto material"/>
+            <ImageView 
+                android:id="@+id/img2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/semen2"
+                android:scaleType="centerCrop"/>
+            <ImageView 
+                android:id="@+id/img3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/semen2"
+                android:scaleType="centerCrop"/>
+            <ImageView 
+                android:id="@+id/img4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/semen2"
+                android:scaleType="centerCrop"/>
+        </ViewFlipper>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+        
+	        <TextView 
+	            android:id="@+id/nama"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="nama material"
+	            android:textSize="25sp"/>
+	        
+	        <TextView 
+	            android:id="@+id/harga"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="harga"
+	            android:textSize="20sp"
+	            android:textColor="#EA125E"/>
+	        
+	        <TextView 
+	            android:id="@+id/toko"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="toko"/>
+	        
+	        <TextView 
+	            android:id="@+id/alamat"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="alamat"
+	            android:layout_marginBottom="20dp"/>
+
+	        <TableLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent" >
+	            
+	            <TableRow >
+	                <TextView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Kategori: "
+			            android:textStyle="bold"/>
+	        
+			        <TextView 
+			            android:id="@+id/kategori"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="kategori"/>
+	            </TableRow>
+	            
+	            <TableRow >
+	                <TextView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Deskripsi: "
+			            android:textStyle="bold"/>
+			        
+	            </TableRow>
+	        </TableLayout>  
+	        
+	        <TextView 
+			     android:id="@+id/deskripsi"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:text="deskripsi"/>
+	    </LinearLayout>
+	    
+        <Button 
+	        android:id="@+id/btn_pesan"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Pesan"
+	        android:textColor="#fff"
+	        android:background="#EA125E"/>
+        
+    </LinearLayout>
+    
+    
+
+</ScrollView>

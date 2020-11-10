@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Materials</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_regis">Regis</string>
+    <string name="title_activity_akun">Akun</string>
+    <string name="title_activity_tukang">Tukang</string>
+    <string name="title_activity_detail_material">Detail_material</string>
+    <string name="title_activity_pengiriman">Pengiriman</string>
+    <string name="title_activity_riwayat_pemesanan">Riwayat_pemesanan</string>
+    <string name="title_activity_detail_tukang">Detail_tukang</string>
+    <string name="title_activity_keranjang">Keranjang</string>
+    <string name="title_activity_kuantitas">Kuantitas</string>
+    <string name="title_activity_transaksi">Transaksi</string>
+    <string name="title_activity_konfirmasi">Konfirmasi</string>
+    <string name="title_activity_tukang_toko">Tukang_toko</string>
+
+</resources>

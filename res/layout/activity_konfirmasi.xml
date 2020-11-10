@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context="com.troy.materialsapp.Konfirmasi" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesanan anda berhasil dibuat. Silahkan menunggu konfirmasi dari penjual!"
+        android:textSize="18sp"
+        android:textColor="#EA125E"
+        android:layout_marginBottom="20dp" />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistem pembayaran menggunakan Cash on Delivery (COD)."/>
+    
+    <TextView 
+        android:id="@+id/id_biodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"/>
+    
+    <TextView 
+        android:id="@+id/rekomendasi_tukang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi Tukang?"
+        android:layout_marginTop="120dp"
+        android:textColor="@android:color/holo_blue_light"/>
+    
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/btn_batal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batalkan pesanan"
+        android:textColor="#fff"
+        android:background="#EA125E"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/btn_back"/>
+    
+    <Button 
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="#fff"
+        android:background="#EA125E"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

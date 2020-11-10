@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.troy.materialsapp.Transaksi" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harap periksa kembali data pengiriman anda!"
+            android:textColor="#EA125E"
+            android:layout_marginBottom="10dp"/>
+        <TextView 
+            android:id="@+id/data_pengiriman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="data pengiriman"
+            android:layout_marginBottom="15dp"/>
+        <Button 
+            android:id="@+id/btn_ubah_pengiriman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ubah data pengiriman"
+            android:layout_marginBottom="40dp"/>
+        
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#eee"
+            android:padding="20dp"
+            android:layout_marginBottom="40dp">
+            
+            <TextView 
+                android:id="@+id/nama_material"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nama"/>
+            <TextView 
+                android:id="@+id/harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="harga"
+                android:textColor="#EA125E"/>
+            <TextView 
+                android:id="@+id/jumlah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jumlah"/>
+        </LinearLayout>
+        
+        		<TextView 
+		            android:id="@+id/id_material"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="id_material"/>
+        		<TextView 
+		            android:id="@+id/id_biodata"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="id_biodata"/>
+        		<TextView 
+		            android:id="@+id/total_harga1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="total_harga"/>
+        
+        <TableLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TableRow >
+                <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Total Harga: "
+		            android:textStyle="bold"/>
+                <TextView 
+		            android:id="@+id/total_harga"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="total_harga"/>
+            </TableRow>
+        </TableLayout>
+        
+
+        
+        <Button 
+        android:id="@+id/btn_transaksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:background="#EA125E"/>
+        
+    </LinearLayout>
+    
+    
+
+</ScrollView>

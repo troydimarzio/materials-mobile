@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.troy.materialsapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Regis"
+            android:label="@string/title_activity_regis" >
+        </activity>
+        <activity
+            android:name=".Akun"
+            android:label="@string/title_activity_akun" >
+        </activity>
+        <activity
+            android:name=".Tukang"
+            android:label="@string/title_activity_tukang" >
+        </activity>
+        <activity
+            android:name=".Detail_material"
+            android:label="@string/title_activity_detail_material" >
+        </activity>
+        <activity
+            android:name=".Pengiriman"
+            android:label="@string/title_activity_pengiriman" >
+        </activity>
+        <activity
+            android:name=".Riwayat_pemesanan"
+            android:label="@string/title_activity_riwayat_pemesanan" >
+        </activity>
+        <activity
+            android:name=".Detail_tukang"
+            android:label="@string/title_activity_detail_tukang" >
+        </activity>
+        <activity
+            android:name=".Keranjang"
+            android:label="@string/title_activity_keranjang" >
+        </activity>
+        <activity
+            android:name=".Kuantitas"
+            android:label="@string/title_activity_kuantitas" >
+        </activity>
+        <activity
+            android:name=".Transaksi"
+            android:label="@string/title_activity_transaksi" >
+        </activity>
+        <activity
+            android:name=".Konfirmasi"
+            android:label="@string/title_activity_konfirmasi" >
+        </activity>
+        <activity
+            android:name=".Tukang_toko"
+            android:label="@string/title_activity_tukang_toko" >
+        </activity>
+    </application>
+
+</manifest>

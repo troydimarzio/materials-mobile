@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.troy.materialsapp.Detail_tukang" >
+    
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        
+        <ImageView 
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bas_cat"
+            android:layout_gravity="center"
+            android:contentDescription="foto material"/>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+	        <TableLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent" >
+
+	           <TableRow >
+	                <TextView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Nama: "
+			            android:textStyle="bold"/>
+	                
+	                <TextView 
+			            android:id="@+id/nama"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="nama"/>
+	            </TableRow>
+	            
+	            <TableRow >
+	                <TextView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Spesialis: "
+			            android:textStyle="bold"/>
+	        
+			        <TextView 
+			            android:id="@+id/spesialis"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="spesialis"/>
+	            </TableRow>
+	            
+	            <TableRow >
+	                <TextView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="No. Telpon: "
+			            android:textStyle="bold"/>
+	        
+			        <TextView 
+			            android:id="@+id/no_telpon"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="nomor"/>
+	            </TableRow>
+	            
+	            <TableRow >
+	                <TextView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Umur: "
+			            android:textStyle="bold"/>
+	        
+			        <TextView 
+			            android:id="@+id/umur"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="umur"/>
+	            </TableRow>
+	            
+	            <TableRow >
+	                <TextView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Alamat: "
+			            android:textStyle="bold"/>
+	        
+			        <TextView 
+			            android:id="@+id/alamat"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="alamat"/>
+	            </TableRow>
+	            
+	            <TableRow >
+	                <TextView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Status Kerja: "
+			            android:textStyle="bold"/>
+	        
+			        <TextView 
+			            android:id="@+id/status"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="status"/>
+	            </TableRow>
+	        </TableLayout>  
+	        
+
+	                <TextView 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Pengalaman Kerja: "
+			            android:textStyle="bold"/>
+	        
+			        <TextView 
+			            android:id="@+id/pengalaman"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="pengalaman"/>
+
+	        
+	        
+	    </LinearLayout>
+        
+    </LinearLayout>
+    
+    
+
+</ScrollView>

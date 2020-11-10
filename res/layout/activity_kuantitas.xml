@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.troy.materialsapp.Kuantitas" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+    
+    
+    <TableLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TableRow >
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textStyle="bold"
+		        android:text="Nama: " />
+            <TextView
+		        android:id="@+id/nama"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="nama" />
+        </TableRow>
+        
+        <TableRow >
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textStyle="bold"
+		        android:text="Harga: " />
+            <TextView
+		        android:id="@+id/harga"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="harga" />
+        </TableRow>
+        
+        <TableRow >
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textStyle="bold"
+		        android:text="Stok: " />
+            <TextView
+		        android:id="@+id/stok"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="stok"
+		        android:layout_marginBottom="100dp" />
+
+        </TableRow>
+        
+        <TableRow >
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textStyle="bold"
+		        android:text="Jumlah: " />
+            <TextView
+		        android:id="@+id/jumlah"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+            <Button 
+                android:id="@+id/kurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"/>
+            <Button 
+                android:id="@+id/tambah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"/>
+        </TableRow>
+        
+        <TableRow >
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textStyle="bold"
+		        android:text="Total: " />
+            <TextView
+		        android:id="@+id/total"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="total" />
+        </TableRow>
+    </TableLayout>
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/btn_pesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan"
+        android:layout_alignParentBottom="true"
+        android:textColor="#fff"
+        android:background="#EA125E"/>
+</RelativeLayout>
